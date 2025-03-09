@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^pagar/(.*)$ painel/pagamentos/index.php?id_conta=$1 [L]
+RewriteRule ^cadastro(.*)$ painel/cadastro.php [L]
+RewriteRule ^acesso(.*)$ acesso.php [L]

@@ -1,0 +1,2 @@
+[06-Mar-2025 15:47:43 America/Sao_Paulo] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/escritor/public_html/painel/rel/contrato.php on line 306
+[06-Mar-2025 15:50:14 America/Sao_Paulo] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/escritor/public_html/painel/rel/contrato.php on line 306

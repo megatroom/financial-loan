@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteRule ^clientes(.*)$ index.php?pagina=clientes [L]
+RewriteRule ^emprestimos(.*)$ index.php?pagina=emprestimos [L]
+RewriteRule ^cobrancas(.*)$ index.php?pagina=cobrancas [L]
+RewriteRule ^grupo_acessos(.*)$ index.php?pagina=grupo_acessos [L]
+RewriteRule ^acessos(.*)$ index.php?pagina=acessos [L]
+RewriteRule ^formas_pgto(.*)$ index.php?pagina=formas_pgto [L]
+RewriteRule ^frequencias(.*)$ index.php?pagina=frequencias [L]
+RewriteRule ^pagar(.*)$ index.php?pagina=pagar [L]
+RewriteRule ^receber_vencidas(.*)$ index.php?pagina=receber_vencidas [L]
+RewriteRule ^receber(.*)$ index.php?pagina=receber [L]
+RewriteRule ^lucro(.*)$ index.php?pagina=lucro [L]
+RewriteRule ^dispositivos(.*)$ index.php?pagina=dispositivos [L]
+RewriteRule ^usuarios(.*)$ index.php?pagina=usuarios [L]
+RewriteRule ^feriados(.*)$ index.php?pagina=feriados [L]
