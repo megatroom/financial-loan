@@ -1,0 +1,21 @@
+name: "PR checks"
+
+on:
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    git-commit:
+        name: Git commits verification
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+            - name: Check
+              shell: bash
+              run: |
+                  #!/usr/bin/env sh
+                  ls
