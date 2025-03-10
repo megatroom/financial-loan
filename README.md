@@ -1,5 +1,8 @@
 # Financial Loan
 
+> [!WARNING]
+> This project is in maintenance mode and will not be continued.
+
 System for financial loans.
 
 ## Development
@@ -37,3 +40,5 @@ docker compose exec web php -r "echo password_hash('1234', PASSWORD_DEFAULT) . P
 ```
 
 Change the `1234` value to the desired password. Save this value in the `senha_crip` field in the `usuarios` table.
+
+==== TESTE ======
